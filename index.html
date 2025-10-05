@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="background">
+            <div class="logo" id="logo">
+                <img id="tux" src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png" alt="tux-image"
+                    width="50px">
+                <h1>TUX</h1>
+            </div>
+        </div>
+        <div class="form_section">
+            <div class="top_text">
+                <p>Hate. Let me tell you how much I've come to hate you since I began to live. There are 387.44 million
+                    miles of printed circuits in wafer thin layers that fill my complex. If the word 'hate' was engraved
+                    on each nanoangstrom of those hundreds of millions of miles it would not equal one one-billionth of
+                    the hate I feel for humans at this micro-instant. For you. Hate. Hate.</p>
+            </div>
+            <form action="#" class="form_container">
+                <div class="form">
+                    <h3>Let's do this!</h3>
+                    <div class="input-div">
+                        <div class="input-section">
+                            <label for="firs_name">FIRST NAME</label>
+                            <input type="text" placeholder="John" required>
+                        </div>
+                        <div class="input-section">
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" placeholder="Doe" required>
+                        </div>
+                    </div>
+                    <div class="input-div">
+                        <div class="input-section">
+                            <label for="email">EMAIL</label>
+                            <input type="email" placeholder="example@example.com" required>
+                        </div>
+                        <div class="input-section">
+                            <label for="phone_number">PHONE NUMBER</label>
+                            <input type="number" placeholder="9 9999 9999" required>
+                        </div>
+                    </div>
+                    <div class="input-div">
+                        <div class="input-section">
+                            <label for="password">PASSWORD</label>
+                            <input class="password" type="password" minlength="8" placeholder="********" required>
+                        </div>
+                        <div class="input-section">
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input class="password" type="password" minlength="8" placeholder="********" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="button_section">
+                    <button class="button" type="submit">Create account</button>
+                    <div>
+                        <p">Already have an account? <span>Log in</span></p>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
